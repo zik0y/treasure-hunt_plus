@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Treasure Hunt Game</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- 游戏地图 -->
+<div id="map" class="library-background">
+  <div id="clue-point" class="glow-point"></div> <!-- 添加发光点 -->
+  <div id="character" class="character"></div>
+  <div id="guard-point" class="event-animation">
+    <img src="guard.png" alt="Guard" class="guard">
+  </div>
+  <div id="castle" class="castle"></div> <!-- 城堡元素 -->
+  <div id="guard" class="guard"></div> <!-- 守卫元素 -->
+  <div id="clue-animation" class="event-animation">
+    <img src="clue.png" alt="Clue" class="clue">
+  </div>
+  <div id="chest-animation" class="event-animation">
+    <img src="chest.jpg" alt="Treasure Chest" class="chest">
+  </div>
+
+  <!-- 恭喜页面，这个会覆盖整个 map -->
+  <div id="congratulations" class="congratulations">
+    <h1>恭喜！你找到了宝藏！</h1>
+    <button id="restartButtonCongratulations">重新开始</button>
+  </div>
+
+  <!-- 游戏结束页面 -->
+  <div id="gameOver" class="gameOver" style="display:none;">
+    <h1>游戏结束！</h1>
+    <button id="restartButtonGameOver">重新开始</button>
+  </div>
+</div>
+
+<div id="event-text"></div>
+<button id="startButton">开始游戏</button>
+<audio id="backgroundMusic" loop>
+  <source src="background_music.mp3" type="audio/mpeg">
+  您的浏览器不支持音频播放。
+</audio>
+
+<button id="musicToggleButton">关闭音乐</button>
+
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+[
+  {
+    "name": "图书馆",
+    "description": "古老的图书馆，藏有许多珍贵的书籍和神秘的线索。这里弥漫着知识的气息，书架高耸入云。",
+    "imagePath": "library.jpg",
+    "triggerElementId": "library"
+  },
+  {
+    "name": "城堡",
+    "description": "庄严的城堡，传说中藏有古老的宝藏。它的城墙坚固，塔楼高耸。它旁边有忠诚的守卫，他们日夜巡逻，保护着城堡的安全",
+    "imagePath": "castle.png",
+    "triggerElementId": "castle"
+  },
+  {
+    "name": "守卫",
+    "description": "忠诚的守卫，他们日夜巡逻，保护着城堡的安全。",
+    "imagePath": "guard.png",
+    "triggerElementId": "guard"
+  }
+]
